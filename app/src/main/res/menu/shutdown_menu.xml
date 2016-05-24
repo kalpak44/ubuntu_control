@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menugroup1" >
+        <item
+            android:id="@+id/restart_now"
+            android:orderInCategory="100"
+            android:title="restart now"/>
+        <item
+            android:id="@+id/shutdown_now"
+            android:orderInCategory="110"
+            android:title="shutdown now"/>
+        <item
+            android:id="@+id/shutdown_on_time"
+            android:orderInCategory="110"
+            android:title="shutdown -P"/>
+        <item
+            android:id="@+id/shutdown_chancel"
+            android:orderInCategory="110"
+            android:title="shutdown -C"/>
+    </group>
+
+</menu>
